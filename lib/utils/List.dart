@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 List TitleList =[
-  'All Inboxes','Inbox','Starred','Snoozed','Important','Sent','Drafts','All Mail','Spam','Trash','Create New','Setting'
+  'All Inboxes','Inbox','Starred','Snoozed','Important','Sent','Drafts','All Mail','Spam','Trash','Create New','Settings'
 ];
 
 List IconList=[

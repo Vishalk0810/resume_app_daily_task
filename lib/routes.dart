@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'login_page/entry_page.dart';
-import 'login_page/login_screen.dart';
+import 'Gmail/component/gmail.dart';
+import 'login_page/component/entry_page.dart';
+import 'login_page/component/login_screen.dart';
 
 class MapRoutes{
   static Map<String, Widget Function(BuildContext)>routes = {
-    '/':(context)=>const EntryPage(),
-    '/login':(context)=>const LoginScreen(),
+       '/':(context)=>const Gmail(),
+    // '/':(context)=>const EntryPage(),
+    // '/login':(context)=>const LoginScreen(),
   };
 }
