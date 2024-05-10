@@ -92,7 +92,7 @@ void main() {
 
 # Example
 
-`List sports` = ['cricket', 'football', 'tennis', 'baseball'];
+```bash List sports = ['cricket', 'football', 'tennis', 'baseball'];```
 
 👉 Map :  A Map is an object that maps keys to values or is a collection of attribute-value pairs.
 
@@ -105,7 +105,7 @@ void main() {
 
 # Example
 
-`Map details = {'Usrname':'tom','Password':'pass@123'};`
+```bash Map details = {'Usrname':'tom','Password':'pass@123'};```
 
 # Generics
 
