@@ -6,6 +6,13 @@
 
 <br>
 
+<video src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/2d85cd7e-1ee7-4eca-bd71-70763318fec1" height=22% width=35%>
+
+<br>
+
+
+
+
 
 
 
