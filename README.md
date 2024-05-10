@@ -1,16 +1,11 @@
-# resume_app_daily_task
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/bd622f42-04f7-4bcd-8fe9-08946a9afd54">
 
-A new Flutter project.
+<br>
 
-## Getting Started
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/a801a3d8-20d2-49e2-8446-e0202e3b6585">
 
-This project is a starting point for a Flutter application.
+<br>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
