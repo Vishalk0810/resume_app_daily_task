@@ -174,9 +174,26 @@ class _StatusState extends State<Status> {
 
 <br>
 
-<video src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/2d85cd7e-1ee7-4eca-bd71-70763318fec1" height=22% width=35%>
+https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/2d85cd7e-1ee7-4eca-bd71-70763318fec1
 
 <br>
+
+# Gmail Login
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/7021fca4-e135-46d3-8641-d1a1894a747f" height=22% width=35%>
+
+<br>
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/90e8c515-37fa-462e-b021-71b43e2602a7" height=22% width=35%>
+
+<br>
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/6ec7324f-88fb-43a7-892f-b2f7d84eeb08" height=22% width=35%>
+
+<br>
+
+
+
 
 
 
