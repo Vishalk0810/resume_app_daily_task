@@ -185,6 +185,13 @@ class _PasswordScreenState extends State<PasswordScreen> {
                                       bool response =
                                           formKey.currentState!.validate();
                                       if (response) {
+                                        ScaffoldMessenger.of(context)
+                                            .showSnackBar(
+                                          SnackBar(
+                                            content: Text('Login Successfully'),
+                                            duration: Duration(seconds: 3),
+                                          ),
+                                        );
                                         Navigator.of(context)
                                             .pushNamed('/success');
                                       }
