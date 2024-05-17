@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 
 List TitleList =[
@@ -6,4 +8,14 @@ List TitleList =[
 
 List IconList=[
   Icons.all_inbox,Icons.inbox,Icons.star_border,Icons.watch_later_outlined,Icons.label_important_outline_rounded,Icons.send,Icons.drafts,Icons.mail_outline,Icons.error_outline_sharp,Icons.delete_forever,Icons.add,Icons.settings,
+];
+
+String gender = 'Male';
+
+List<bool> hobby = [
+  false,false,false,false
+];
+
+List hobbyType =[
+  'Cricket','football', 'kabaddi','cycling',
 ];
