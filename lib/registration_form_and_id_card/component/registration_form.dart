@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
-
 import '../../utils/List.dart';
 
 class RegistrationForm extends StatefulWidget {
@@ -13,11 +12,12 @@ class RegistrationForm extends StatefulWidget {
 }
 
 ImagePicker imagePicker = ImagePicker();
-File? fileImage;
+
 GlobalKey<FormState> formkey = GlobalKey();
 TextEditingController txtName = TextEditingController();
 TextEditingController txtSurname = TextEditingController();
-TextEditingController txtContact = TextEditingController(text: '+91 ');
+TextEditingController txtdob = TextEditingController();
+TextEditingController txtContact = TextEditingController();
 TextEditingController txtEmail = TextEditingController();
 TextEditingController txtAddress = TextEditingController();
 
@@ -43,6 +43,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
         ),
       ),
       body: Form(
+        key: formkey,
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: SingleChildScrollView(
@@ -69,6 +70,8 @@ class _RegistrationFormState extends State<RegistrationForm> {
                           setState(() {
                             fileImage = File(xFileImage!.path);
                           });
+
+
                         },
                         icon: Icon(
                           Icons.camera_alt,
@@ -81,6 +84,9 @@ class _RegistrationFormState extends State<RegistrationForm> {
                           setState(() {
                             fileImage = File(xFileImage!.path);
                           });
+
+                          print("------------------------"+ fileImage!.path);
+
                         },
                         icon: Icon(
                           Icons.image,
@@ -111,9 +117,18 @@ class _RegistrationFormState extends State<RegistrationForm> {
                           Controler: txtSurname,
                           keyboardtype: TextInputType.name,
                           maxlines: 1,
-
                         )),
                   ],
+                ),
+                SizedBox(
+                  height: 10,
+                ),
+                buildTextFormField(
+                  hint: 'dd/mm/yy',
+                  lable: 'D.O.B',
+                  Controler: txtdob,
+                  keyboardtype: TextInputType.text,
+                  maxlines: 1,
                 ),
                 SizedBox(
                   height: 10,
@@ -125,15 +140,19 @@ class _RegistrationFormState extends State<RegistrationForm> {
                   keyboardtype: TextInputType.number,
                   maxlines: 1,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 buildTextFormField(
-                  hint: 'E-mail',
+                  hint: 'xyz@gmail.com',
                   lable: 'E-mail',
                   Controler: txtEmail,
                   keyboardtype: TextInputType.text,
                   maxlines: 1,
                 ),
-                SizedBox(height: 10,),
+                SizedBox(
+                  height: 10,
+                ),
                 buildTextFormField(
                   hint: 'Address',
                   lable: 'Address',
@@ -156,13 +175,13 @@ class _RegistrationFormState extends State<RegistrationForm> {
                   ],
                 ),
                 buildRadioListTile(
-                  Gender: 'male',
+                  Gender: 'Male',
                 ),
                 buildRadioListTile(
                   Gender: 'Female',
                 ),
                 buildRadioListTile(
-                  Gender: 'Others',
+                  Gender: 'Prefer not to say',
                 ),
                 SizedBox(
                   height: 10,
@@ -181,26 +200,42 @@ class _RegistrationFormState extends State<RegistrationForm> {
                 buildCheckboxListTile(index: 0),
                 buildCheckboxListTile(index: 1),
                 buildCheckboxListTile(index: 2),
-
-                // Container(
-                //   height: 50,
-                //   width: 360,
-                //   decoration: BoxDecoration(
-                //     color: Colors.cyan,
-                //   ),
-                //   child: Center(
-                //     child: Text(
-                //       'Uplode',
-                //       style: TextStyle(
-                //         fontSize: 20,
-                //         fontWeight: FontWeight.w600,
-                //       ),
-                //     ),
-                //   ),
-                // )
               ],
             ),
           ),
+        ),
+      ),
+      bottomNavigationBar: GestureDetector(
+        onTap: () {
+          bool responce = formkey.currentState!.validate();
+          if (responce) {
+            firstName = txtName.text;
+            lastName = txtSurname.text;
+            dob = txtdob.text;
+            contact = txtContact.text;
+            email = txtEmail.text;
+            address = txtAddress.text;
+            for (int i = 0; i < hobby.length; i++) {
+              if (hobby[i]) {
+                hobby[i] = false;
+                hobbySelected.add(hobbyType[i]);
+              }
+            }
+            print("------------------------"+ fileImage!.path);
+
+            Navigator.pushNamed(context, '/id');
+          }
+        },
+        child: BottomAppBar(
+          height: 80,
+          child: Center(
+              child: Text(
+            'Submit',
+            style: TextStyle(
+              fontSize: 23,
+              fontWeight: FontWeight.w600,
+            ),
+          )),
         ),
       ),
     );
@@ -238,6 +273,13 @@ class _RegistrationFormState extends State<RegistrationForm> {
       required Controler,
       required maxlines}) {
     return TextFormField(
+      validator: (value) {
+        if(value!.isEmpty)
+          {
+            return 'Required';
+          }
+        return null;
+      },
       controller: Controler,
       decoration: InputDecoration(
         focusedBorder: OutlineInputBorder(
@@ -261,3 +303,5 @@ class _RegistrationFormState extends State<RegistrationForm> {
     );
   }
 }
+
+File? fileImage;

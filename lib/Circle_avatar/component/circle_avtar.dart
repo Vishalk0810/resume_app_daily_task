@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 
+import '../../registration_form_and_id_card/component/registration_form.dart';
+
 class Picker extends StatefulWidget {
   const Picker({super.key});
 
@@ -11,7 +13,6 @@ class Picker extends StatefulWidget {
 }
 
 ImagePicker imagePicker = ImagePicker();
-File? fileImage;
 
 class _PickerState extends State<Picker> {
   @override

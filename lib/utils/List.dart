@@ -13,9 +13,17 @@ List IconList=[
 String gender = 'Male';
 
 List<bool> hobby = [
-  false,false,false,false
+  false,false,false
 ];
 
 List hobbyType =[
-  'Cricket','football', 'kabaddi','cycling',
+  'Cricket','Football', 'Kabaddi',
 ];
+
+String firstName = '';
+String lastName = '';
+String dob = '';
+String contact = '';
+String  email= '';
+String address = '';
+List hobbySelected = [];
