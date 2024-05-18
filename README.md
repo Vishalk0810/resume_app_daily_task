@@ -208,6 +208,16 @@ https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/554a23b2-a
 
 https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/5c999764-fc55-4faf-8b56-5fbbab5195f7
 
+# Dynamic Text Field
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/a2cf06e8-2a1a-487d-8a75-9f0acbd9309b" height=22% width=35%>
+
+<br>
+
+https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/ea4d9452-939b-4e25-a1d0-7b0bf6a7f5b5
+
+
+
 
 
 
