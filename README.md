@@ -168,8 +168,6 @@ class _StatusState extends State<Status> {
 
 <img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/bd622f42-04f7-4bcd-8fe9-08946a9afd54" height=22% width=35%>
 
-<br>
-
 <img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/a801a3d8-20d2-49e2-8446-e0202e3b6585" height=22% width=35%>
 
 <br>
@@ -203,8 +201,6 @@ https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/554a23b2-a
 # Id Card
 
 <img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/26f5f296-55f2-4942-90ca-ae331e845905" height=22% width=35%>
-
-<br>
 
 <img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/f4f50912-7395-46eb-9fed-38b152f36a8d" height=22% width=35%>
 
