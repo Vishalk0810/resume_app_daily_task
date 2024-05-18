@@ -168,8 +168,6 @@ class _StatusState extends State<Status> {
 
 <img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/bd622f42-04f7-4bcd-8fe9-08946a9afd54" height=22% width=35%>
 
-<br>
-
 <img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/a801a3d8-20d2-49e2-8446-e0202e3b6585" height=22% width=35%>
 
 <br>
@@ -199,6 +197,26 @@ https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/2d85cd7e-1
 <br>
 
 https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/554a23b2-a9f7-4a00-8dc8-90a4564d9102
+
+# Id Card
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/26f5f296-55f2-4942-90ca-ae331e845905" height=22% width=35%>
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/f4f50912-7395-46eb-9fed-38b152f36a8d" height=22% width=35%>
+
+<br>
+
+https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/5c999764-fc55-4faf-8b56-5fbbab5195f7
+
+# Dynamic Text Field
+
+<img src="https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/a2cf06e8-2a1a-487d-8a75-9f0acbd9309b" height=22% width=35%>
+
+<br>
+
+https://github.com/Vishalk0810/resume_app_daily_task/assets/149374506/ea4d9452-939b-4e25-a1d0-7b0bf6a7f5b5
+
+
 
 
 
