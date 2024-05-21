@@ -27,3 +27,18 @@ String contact = '';
 String  email= '';
 String address = '';
 List hobbySelected = [];
+
+List<InvoiceModel> invoiceList =[
+  InvoiceModel(name: 'Lenovo Thinkpad P14s',price: '1,29,990',category: 'Laptop'),
+  InvoiceModel(name: 'Lenovo ThinkBook 16',price: '40,990',category: 'Laptop'),
+  InvoiceModel(name: 'Lenovo IdeaPad Slim 3',price: '33,990',category: 'Laptop'),
+];
+
+class InvoiceModel
+{
+  String? name;
+  String? price;
+  String? category;
+
+  InvoiceModel({this.name,this.price,this.category});
+}

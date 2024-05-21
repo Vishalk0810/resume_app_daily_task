@@ -6,9 +6,13 @@ import 'Generate_Dynamic_Text_Field/component/dynamic_text_field.dart';
 import 'gmail_login_page/component/Login_screen.dart';
 import 'gmail_login_page/component/login_password.dart';
 import 'gmail_login_page/successful_page/component/successful_screen.dart';
+import 'invoice/component/invoice.dart';
+import 'invoice/component/pdf.dart';
 class MapRoutes{
   static Map<String, Widget Function(BuildContext)>routes = {
-        '/':(context)=>const DynamicTextField(),
+        '/':(context)=>const Invoice(),
+        '/pdf':(context)=>const PdfInvoice(),
+        //'/':(context)=>const DynamicTextField(),
        // '/':(context)=>const RegistrationForm(),
        // '/id':(context)=>const IdCard(),
       // '/':(context)=>const Picker(),
